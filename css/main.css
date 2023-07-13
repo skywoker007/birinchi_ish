@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'OpenSans',sans-serif;
+
+}
+
+
+body{
+    position: relative;
+    font-family: "OpenSans";
+    font-size:16px;
+    font-weight:400;
+    line-height:22px;
+    color:#949494;
+    
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover, a:focus {
+    color: #333;
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+}
+h1, h2, h3, h4, h5, h6{
+   font-family: "RobotoSlab";
+    font-weight: 400;
+    color: #202020;
+    margin: 0;
+}
+p{
+    margin: 0px;
+   font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+}
+input {
+    outline: none;
+}
+input:focus {
+    outline: none !important;
+    box-shadow:none !important;
+}
+textarea {
+    outline: none;
+}
+textarea:focus {
+    outline: none !important;
+    box-shadow:none !important;
+}
+button {
+    outline: none;
+}
+button:focus {
+    outline: none;
+    box-shadow:none;
+}
+header{
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 810px;
+    overflow: hidden;
+}
+
+#header {
+    text-align: center;
+}
+#header h2{
+    padding-top: 170px;
+    font-size: 60pt;
+    color: #656565;
+    line-height: 1.5em;
+    text-align: center;
+}
+.btn{
+    border: 0px;
+    border-radius: 6px;
+    background-color: #ff6d6d;
+    padding: 20px 62px;
+    font-size: 16pt;
+    color: #fff;
+    text-align: center;
+    
+}
+.btn:active{
+    box-shadow: none; 
+}
+#header p{
+    font-size: 14pt;
+    color: #8c8c8f;
+    text-align: center;
+}
+/* header tugadi */
+/* section boshi */
+.section{
+    height: 673px;
+
+}
+span{
+    color: #ff6d6d
+}
+#section_text{
+    padding: 135px 90px;
+    line-height: 3em;
+
+}
+.section h5, .section2 h5, .section4 h5, .clients h5, .feature h5, .signing h5{
+    font-size: 18px;
+    color: #ff6d6d;
+}
+.section h2, .section2 h2, .section4 h2{
+    font-size: 40px;
+}
+.section2 h2, .section3 p, .feature h2, .feature h5, .feature p{
+    text-align: center;
+}
+#section_photo{
+    background-color: #ececec;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 0;
+}
+.bg{
+    width: 100%;
+    padding: 0;
+    margin-top: 240px;
+
+}
+/* section tugadi */
+/* section2 boshi */
+.section2, .section3{
+    height: 310px;
+    background-color: #f6f5f3;
+    line-height: 2em;
+}
+.section2 h5, h2{
+    text-align: center;
+}
+.section2 h5{
+    margin-top: 138px;
+}
+#pen{
+    margin-top: -15px;
+    margin-left: -20px;
+}
+/* sec2 tugadi */
+/* sec3 start */
+.section3{
+    padding-top: 15px;
+    text-align: center;
+    line-height: 3em;
+}
+.section3 h4{
+    padding-top: 10px;
+    font-size: 22px;
+}
+.section3 p{
+    font-size: 16px;
+}
+#cafe{
+    float: right;
+    margin-top: -3px;
+    margin-right: -100px;
+
+}
+/* sec3 end */
+/* sec4 start */
+.section4{
+    height: 550px;
+    line-height: 3em;
+}
+.section4 img{
+    margin-left: -15px;
+}
+.section4 h5{
+    margin-top: 140px;
+    
+}
+#sec4{
+    padding-left: 120px;
+}
+.section4 h5,h2,p{
+    text-align: left;
+}
+.section4 p{
+    margin-top: 20px;
+}
+/* sec4 end */
+/* clients start */
+.clients{
+    height: 648px;
+    text-align: center;
+    line-height: 3em;
+}
+#cl{
+    background-image: url(../img/cl_bg.png);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.clients h3{
+    font-size: 22px;
+    color: #fff;
+}
+.clients img{
+    padding-top: 108px;
+}
+.clients p{
+    color: #c6c7c7;
+    text-align: center;
+}
+/* cl end */
+/* feature start */
+.feature{
+    height: 754px;
+    background-color: #f6f5f3;
+    line-height: 3em;
+    text-align: center;
+}
+.feature h5{
+    margin-top: 106px;
+}
+.feature h2{
+    margin-bottom: 40px;
+    font-size: 48px;
+}
+.feature img{
+    margin-top: 68px;
+}
+/* feature end */
+/* signing start */
+.signing{
+    height: 467px;
+    background-color: #323969;
+    text-align: center;
+    line-height: 3em;
+}
+.signing h2{
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.signing h5{
+    margin-top: 97px;
+    
+}
+.signing p, a{
+    margin-top: 45px;
+    color: #f6f5f1;
+    text-align: center;
+}
+.signing a{
+    text-decoration: underline;
+}
+.signing img{
+    margin-left: 800px;
+    margin-bottom: 5px;
+}
+.input{
+    background-color: #464c77;
+    border-radius: 6px;
+    margin-right: 30px;
+    padding-left: 10px;
+    
+}
+.submit{
+    background-color: #ff6d6d;
+    border-radius: 6px;
+    padding: 0 70px 0 70px;
+    color: #fff;
+}
+/* signing end */
+/* footer start */
+.footer{
+    height: 333px;
+    line-height: 2em;
+}
+.flogo{
+    margin-top: 87px;
+
+}
+
+.footer h5{
+    font-size: 18px;
+    color: #000;    
+    margin-top: 97px;    
+}
+.footer h5{
+    font-size: 28px;
+}
+.email{
+    background-color: #f6f6f6;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+.button{
+    border: 0px;
+    border-radius: 6px;
+    background-color: #ff6d6d;
+    padding: 2px;
+    font-size: 16pt;
+    color: #fff;
+    text-align: center
+    
+}
+.footer a{
+    color: #8a8a8a;
+}
+
